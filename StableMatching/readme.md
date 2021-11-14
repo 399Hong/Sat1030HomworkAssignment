@@ -14,12 +14,10 @@ between m and w in the output format.
 
 
 # Sample Input:
-\#
+\#\
 
-\#
-
-n = 5
-
+\#\
+n = 5\
 \#
 
 1: 2 6 8 4 10
