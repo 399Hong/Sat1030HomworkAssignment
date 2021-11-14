@@ -13,7 +13,7 @@ format is m w where m is the man ID and w is the woman ID. Note that there is on
 between m and w in the output format.
 
 
-# Sample Input:
+## Sample Input:
 \#\
 n = 5\
 \#
@@ -30,7 +30,7 @@ n = 5\
 10: 5 9 7 3 1
 
 
-# Sample output
+## Sample output
 
 1 8\
 3 6\
