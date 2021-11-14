@@ -1,5 +1,5 @@
 We would like you to implement
-the Gale-Shapley algorithm for nding the man-optimal stable maching. An O(n2) solution is preferred.
+the Gale-Shapley algorithm for finding the man-optimal stable maching. An O(n2) solution is preferred.
 
 We use # for the comment and we have e.g. n = 5 to indicate the value n of our stable matching
 problem. We use all odd integers ranging from 1 to 2n-1 as the man ID, and all even integers ranging
@@ -17,8 +17,11 @@ between m and w in the output format.
 \#
 
 \#
+
 n = 5
+
 \#
+
 1: 2 6 8 4 10
 
 2: 5 9 3 1 7
