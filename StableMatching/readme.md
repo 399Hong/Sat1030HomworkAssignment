@@ -16,7 +16,7 @@ between m and w in the output format.
 ## Sample Input:
 \#\
 n = 5\
-\#
+\#\
 1: 2 6 8 4 10\
 2: 5 9 3 1 7\
 3: 6 8 10 4 2\
