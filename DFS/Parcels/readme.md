@@ -22,7 +22,8 @@ Output one line for each query. On the j-th line, output the number of times a p
 given to person Aj will be passed until it reaches person Bj, or -1 if the parcel will
 never reach person Bj.
 **Sample Input**
-5 2
+<br>
+5 2<br>
 1 0 1 4 3
 2 0
 3 1
