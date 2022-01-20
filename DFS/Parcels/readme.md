@@ -20,16 +20,16 @@ of two space-separated integers Aj and Bj (0 ≤ Aj ≤ N-1, 0 ≤ Bj ≤ N-1, A
 ## Output
 Output one line for each query. On the j-th line, output the number of times a parcel
 given to person Aj will be passed until it reaches person Bj, or -1 if the parcel will
-never reach person Bj.
+never reach person Bj.<br>
 **Sample Input**
 <br>
 5 2<br>
-1 0 1 4 3
-2 0
-3 1
-**Output for Sample Input**
-2
--1
+1 0 1 4 3<br>
+2 0<br>
+3 1<br>
+**Output for Sample Input**<br>
+2<br>
+-1<br>
 ## Explanation
 For the first query, if person 2 is given a parcel they will pass it to person 1 who will
 then pass it to person 0 (taking two passes).
