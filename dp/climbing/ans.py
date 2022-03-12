@@ -15,4 +15,3 @@ def bottomsUpOptimized(self):
             prev_2 = prev_1
             prev_1 = curr
         return curr
-        return curr

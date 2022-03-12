@@ -1,4 +1,6 @@
+
 vector<vector<int>> generate(int numRows) {
+    
     vector<vector<int>> triangle;
     for (int i = 1; i <= numRows; i++) {
         triangle.push_back(vector<int>(i));
