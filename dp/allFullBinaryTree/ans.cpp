@@ -1,6 +1,16 @@
 //Simple Recursive Solution
+#include <bits/stdc++.h>
+using namespace std;
 
-class Solution {
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+class Recursion {
 public:
     vector<TreeNode*> allPossibleFBT(int n) {
         vector<TreeNode*> ans;
@@ -26,7 +36,7 @@ public:
     }
 //Recursion + Memoization(Top-down DP)
 
-class Solution {
+class RecursionMemo {
 public:
     map<int,vector<TreeNode*>> m;
     vector<TreeNode*> allPossibleFBT(int n) {
@@ -56,7 +66,7 @@ public:
 
 
 //Non-recursion dp
-class Solution {
+class NonrecursionMemo {
 public:
     vector<TreeNode*> allPossibleFBT(int n) {
         
@@ -87,3 +97,4 @@ public:
         ans = hash[n];
         return ans;
     }
+};
