@@ -41,4 +41,48 @@ int maxProduct(vector<int>& nums) {
     
     return ans;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// only for the sum, not for the product, you can do the product as a hw
+int maxSumv (vector<int>& nums) {
+    int localMax = 0,globalMax = 0;
+
+    for(int i=0; i<nums.size(); i++) {
+
+        localMax = max(nums[i], localMax+nums[i])
+        if (localMax > globalMax) globalMax = localMax
+    }
+
+
+    return globalMax;
+}
+
 ```

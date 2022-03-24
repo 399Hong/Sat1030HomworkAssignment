@@ -16,7 +16,7 @@ Example 2:
     Explanation: The result cannot be 2, because {-2,-1} is not a subarray.
     
 ```cpp
-    int maxProduct(vector<int>& nums) {
-        
-    }
-cpp
+int maxProduct(vector<int>& nums) {
+    
+}
+```

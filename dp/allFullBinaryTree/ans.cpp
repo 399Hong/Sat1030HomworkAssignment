@@ -77,10 +77,12 @@ public:
         
         hash[1].push_back(new TreeNode(0));
         
-        for(int i=3;i<=n;i+=2)
+        for(int i=3;i<=n;i+=2) // trying all odd number of nodes
         {
-            for(int j=2;j<=i;j+=2)
+            for(int j=2;j<=i;j+=2)// assume j nodes will be in the l subtree
             {
+
+                // using the table to check
                 for(int k=0;k<hash[j-1].size();k++)
                 {
                     for(int l=0;l<hash[i-j].size();l++)
